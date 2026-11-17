@@ -1,0 +1,8 @@
+{
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "protocol": "patchbraid-1",
+  "contract": "0x7F5DdCEaFE6b3983fefD6160f68b95D430dbDb58",
+  "source_sha256": "514692ab30645017c18a17c59571e28ac0aaedb3a2eece5f36c8ce874f3e3a51",
+  "deploy_tx": "0x69cd834feaa602b18f4c339259f96f88f2a1323dc9da9b580c234f5ed3f51848"
+}

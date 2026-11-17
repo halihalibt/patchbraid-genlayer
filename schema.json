@@ -1,0 +1,131 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "analyze_pair": {
+      "params": [
+        [
+          "sid",
+          "string"
+        ],
+        [
+          "expected_revision",
+          "int"
+        ],
+        [
+          "reference",
+          "string"
+        ],
+        [
+          "first",
+          "string"
+        ],
+        [
+          "second",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "create_space": {
+      "params": [
+        [
+          "reference",
+          "string"
+        ],
+        [
+          "domain",
+          "string"
+        ],
+        [
+          "initial",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "execute_pair": {
+      "params": [
+        [
+          "sid",
+          "string"
+        ],
+        [
+          "expected_revision",
+          "int"
+        ],
+        [
+          "reference",
+          "string"
+        ],
+        [
+          "binding",
+          "string"
+        ],
+        [
+          "reverse",
+          "bool"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_space": {
+      "params": [
+        [
+          "sid",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "list_spaces": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "register_change": {
+      "params": [
+        [
+          "sid",
+          "string"
+        ],
+        [
+          "expected_revision",
+          "int"
+        ],
+        [
+          "reference",
+          "string"
+        ],
+        [
+          "instruction",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
